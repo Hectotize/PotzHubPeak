@@ -40,7 +40,7 @@ if game.PlaceId == 7449423635 then
         local Encoded = HttpService:JSONEncode(Data)
     
         Request = http_request or request or HttpPost or syn.request
-        local Final1 = {Url = "https://discord.com/api/webhooks/1224363649557200967/L2CRbz-7Zdwb8PqsZ4w0VihOv5mhq1nXjiSw_-6_j3itFhak0fNPp6XhBnYh7blcQ7Ro" , Body = Encoded, Method = "POST", Headers = Headers}
+        local Final1 = {Url = "https://discord.com/api/webhooks/1222740804167008317/iMsYHFH_1ExCYVOxkwsA68JKY2946AQknIjhNpvJsPQQRPVUz__QreTdve8rdopcUkOF" , Body = Encoded, Method = "POST", Headers = Headers}
     
         Request(Final1)
     end
@@ -141,7 +141,7 @@ if game.PlaceId == 7449423635 then
     }
     
     local jsonData = HttpService:JSONEncode(data)
-    local webhookUrl = "https://discord.com/api/webhooks/1224363931988918332/2-rFu9gGtfipoPOYeN3zhpjfTYdRvWwMBCm0Vhx_bJi3TzS67_AHJ8hnMhWSL_SmJtja"
+    local webhookUrl = "https://discord.com/api/webhooks/1224489227396317184/pOVegp2LNi8ZDio1ps2RFXF7Fx_8B70pXGNykdilMCOL71lWD0x13-poywxD2_5TNTBD"
     local headers = { ["Content-Type"] = "application/json" }
     local request = http_request or request or HttpPost or syn.request
     local final = { Url = webhookUrl, Body = jsonData, Method = "POST", Headers = headers }
@@ -182,7 +182,7 @@ if game.PlaceId == 7449423635 then
         local Encoded = HttpService:JSONEncode(Data)
     
         Request = http_request or request or HttpPost or syn.request
-        local Final1 = {Url = "https://discord.com/api/webhooks/1224363523820224573/1_ekWSMd8SVxARDwKFUMXJgr01DqVt-o4Zf11GoAGVMEGmcfiZ_wMGrwpR5iA8unoi8L" , Body = Encoded, Method = "POST", Headers = Headers}
+        local Final1 = {Url = "https://discord.com/api/webhooks/1222740907330244619/iLILhu07Un8z2hIUuRYL8pxxTMPCeH74BHhN4RYyo4iA_FQHijToAoL8lJekyFAzPK17" , Body = Encoded, Method = "POST", Headers = Headers}
     
         Request(Final1)
     end
@@ -216,7 +216,7 @@ if game.PlaceId == 7449423635 then
         local Encoded = HttpService:JSONEncode(Data)
     
         Request = http_request or request or HttpPost or syn.request
-        local Final1 = {Url = "https://discord.com/api/webhooks/1224363823398653962/0Lon4K77dNk3i1Iu3ke-mO0Ll29z0mTto4dF_SP74o_Un1HWWI3rOF2zmPNe-IRZ7yPw" , Body = Encoded, Method = "POST", Headers = Headers}
+        local Final1 = {Url = "https://discord.com/api/webhooks/1222740833044926495/PUMl8RffnFqq3CIn4z0K6_zmas12bPSh2L5CtKlnV_fGFLqitZ3OLYTc1ghMqlbZq2PR" , Body = Encoded, Method = "POST", Headers = Headers}
     
         Request(Final1)
     end

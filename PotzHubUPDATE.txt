@@ -1,16 +1,3 @@
---[[
-    this file was obf by @player.81
-    pls do not spam webhook
-    I hope you just take the source code and leave.
---]]
-
-
-
-
-
-
-
-
 if game.PlaceId == 7449423635 then 
     if game:GetService("Workspace").Map:FindFirstChild("KitsuneIsland") then
         local HttpService = game:GetService("HttpService")
@@ -246,8 +233,8 @@ if game:IsLoaded() then
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-save"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-inter"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "Mbm Hub V2.8",
